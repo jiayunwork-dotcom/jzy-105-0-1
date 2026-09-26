@@ -1,0 +1,17 @@
+{
+  "name": "skip-geometry-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "钢板对接焊缝超声斜射探伤的折线声程几何核算服务",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
